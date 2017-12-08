@@ -1,6 +1,6 @@
 # Rakuten MA
 
-[English README (英語ドキュメント)](https://github.com/rakuten-nlp/rakutenma/blob/master/README.md)
+[English README (英語ドキュメント)](https://github.com/wd1/NLP_word_extraction/blob/master/README.md)
 
 ## はじめに
 
@@ -16,9 +16,6 @@ Rakuten MA には、以下のような特徴があります：
   - モデルサイズ削減のため、素性ハッシング、量子化、フィルタリングをサポート。
   - 一般分野のコーパス (BCCWJ [Maekawa 2008] と CTB [Xue et al. 2005]) およびネットショッピング分野のコーパスから学習したモデルを同梱。
 
-## デモ
-
-[こちらのページ](http://rakuten-nlp.github.io/rakutenma/) から、Rakuten MA のデモを試すことができます。 (読み込みに少し時間がかかります)
 
 ## 使い方
 
@@ -26,9 +23,9 @@ Rakuten MA には、以下のような特徴があります：
 
 Rakuten MA は JavaScript のライブラリなため、インストールの必要はありません。以下のように、Git リポジトリをクローンするか、
 
-    git clone https://github.com/rakuten-nlp/rakutenma.git
+    git clone https://github.com/wd1/NLP_word_extraction.git
 
-zip アーカイブを以下からダウンロードしてください。 https://github.com/rakuten-nlp/rakutenma/archive/master.zip
+zip アーカイブを以下からダウンロードしてください。 https://github.com/wd1/NLP_word_extraction/archive/master.zip
 
 Node.js がインストールされていれば、以下のコマンドでデモを動かすことができます（内容は以下の使用例と同じです）
 
@@ -202,7 +199,7 @@ Q. 商用利用はできますか？
 - A. 利用規約・ライセンスに従う限り、商用利用は許可されています。詳細については、上記「利用規約・ライセンス」を参照してください。
 
 Q. バグ・解析誤り・etc. を見つけました。どこに報告すれば良いですか？
-- A. Github issues https://github.com/rakuten-nlp/rakutenma/issues から issue を作成してください。
+- A. Github issues https://github.com/wd1/NLP_word_extraction/issues から issue を作成してください。
 - もしくは、コードを修正し、pull request を作成してください。Rakuten MA には、Jasmine http://jasmine.github.io/ を使ったテストスイートが付随しています。pull request を出す前に、全てのテストが通る (`jasmine-node spec` を実行した時にエラーが出ない) ことを確認し、必要であれば、追加のテストを書いてください。
 - それでも問題が解決しなければ、prj-rakutenma [at] mail.rakuten.com までお問い合わせください。
 

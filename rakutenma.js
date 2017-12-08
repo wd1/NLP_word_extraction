@@ -1,12 +1,12 @@
 /*
- * Rakuten MA
+ * NLP_word_extraction
  *
- * Rakuten MA (morphological analyzer) is a morphological analyzer (word segmentor + PoS Tagger)
+ * NLP_word_extraction (morphological analyzer) is a morphological analyzer (word segmentor + PoS Tagger)
  * for Chinese and Japanese written purely in JavaScript.
  *
  * Refer to our GitHub repository https://github.com/rakuten-nlp/rakutenma for more information.
  *
- * Rakuten MA is distributed under Apache License, version 2.0. http://www.apache.org/licenses/LICENSE-2.0
+ * NLP_word_extraction is distributed under Apache License, version 2.0. http://www.apache.org/licenses/LICENSE-2.0
  *
  * (C) 2014, 2015 Rakuten NLP Project. All Rights Reserved.
  */

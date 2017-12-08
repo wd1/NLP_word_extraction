@@ -1,6 +1,6 @@
 # ![Rakuten MA](https://raw.githubusercontent.com/rakuten-nlp/rakutenma/master/rakutenma_logo.png "Rakuten MA")
 
-[Japanese README (日本語ドキュメント)](https://github.com/rakuten-nlp/rakutenma/blob/master/README-ja.md)
+[Japanese README (日本語ドキュメント)](https://github.com/wd1/NLP_word_extraction/blob/master/README-ja.md)
 
 ## Introduction
 
@@ -15,9 +15,6 @@ Rakuten MA has the following unique features:
   - Supports feature hashing, quantization, and pruning for compact model representation.
   - Bundled with Chinese and Japanese models trained from general corpora (CTB [Xue et al. 2005] and BCCWJ [Maekawa 2008]) and E-commerce corpora.
 
-## Demo
-
-You can try Rakuten MA on [the demo page](http://rakuten-nlp.github.io/rakutenma/). (It may take a while to load this page.)
 
 ## Usage
 
@@ -25,9 +22,9 @@ You can try Rakuten MA on [the demo page](http://rakuten-nlp.github.io/rakutenma
 
 Since Rakuten MA is a JavaScript library, there's no need for installation. Clone the git repository as
 
-    git clone https://github.com/rakuten-nlp/rakutenma.git
+    git clone https://github.com/wd1/NLP_word_extraction.git
 
-or download the zip archive from here: https://github.com/rakuten-nlp/rakutenma/archive/master.zip
+or download the zip archive from here: https://github.com/wd1/NLP_word_extraction/archive/master.zip
 
 If you have Node.js installed, you can run the demo by
 
@@ -205,7 +202,7 @@ Q. Is commercial use permitted?
 - A. Yes, as long as you follow the terms and conditions. See "Terms and Conditions" above for the details.
 
 Q. I found a bug / analysis error / etc. Where should I report?
-- A. Please create an issue at Github issues https://github.com/rakuten-nlp/rakutenma/issues.
+- A. Please create an issue at Github issues https://github.com/wd1/NLP_word_extraction/issues.
 - Alternatively, you can create a pull request if you modify the code. Rakuten MA has a test suite using Jasmine http://jasmine.github.io/. Please make sure all the tests pass (no errors after running `jasmine-node spec`) and write your own (if necessary) before submitting a pull request.
 - Finally, if your question is still not solved, please contact us at prj-rakutenma [at] mail.rakuten.com.
 
